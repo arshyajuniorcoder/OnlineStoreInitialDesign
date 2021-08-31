@@ -1,0 +1,914 @@
+.shop-logo {
+    position: relative;
+    padding: 0px 0px 0px 60px;
+}
+
+.shop-logo p:nth-child(1) {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+
+.shop-logo p:nth-child(2) {
+    font-size: 11px;
+    opacity: 0.5;
+    margin-bottom: 2px;
+}
+
+.social-media {
+    position: relative;
+    margin-top: 5px;
+}
+
+.social-media i:hover {
+    color: #333;
+}
+
+.my-account {
+    position: relative;
+    margin-top: 10px;
+}
+
+.my-account p {
+    width: 100px;
+    font-size: 14px;
+    margin: 10px 10px 0px 30px;
+}
+
+.my-account ul {
+    min-width: 160px;
+    background-color: #f3f3f3;
+    font-size: 14px;
+    list-style: none;
+    padding: 0px;
+    border: 1px solid rgb(211, 211, 211);
+    border-radius: 5px;
+    position: absolute;
+    top: 30px;
+    left: -10px;
+    display: none;
+}
+
+.my-account li {
+    padding: 10px;
+    border-bottom: 1px solid rgb(211, 211, 211);
+}
+
+.my-account a {
+    text-decoration: none;
+    color: black;
+}
+
+.my-account p:hover i {
+    color: rgb(35, 196, 115);
+    cursor: pointer;
+}
+
+.my-account:hover .sub-menu > ul {
+    display: inline-block;
+    z-index: 1;
+}
+
+.my-account li:hover {
+    background-color: #555;
+    cursor: pointer;
+}
+
+.my-account li:hover > a {
+    color: rgb(35, 196, 115);
+    cursor: pointer;
+}
+
+.my-bag {
+    position: relative;
+    margin-top: 10px;
+}
+
+.my-bag p {
+    width: 100px;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 10px 0px 0px 20px;
+}
+
+.menu-bar-list {
+    position: relative;
+    border-bottom: 1px solid rgb(211, 211, 211);
+    padding-left: 95px;
+}
+
+.menu-bar-list ul {
+    list-style: none;
+}
+
+.menu-bar-list li {
+    display: inline-block;
+    padding: 20px 35px 0px 0px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.menu-bar-list li:hover {
+    color: rgb(35, 196, 115);
+    cursor: pointer;
+}
+
+.listing {
+    position: absolute;
+    top: 42px;
+    left: 135px;
+    width: fit-content;
+    background-color: #f3f3f3;
+    padding: 40px 30px 40px 30px;
+    display: none;
+}
+
+.listing p {
+    font-size: 14px;
+    font-weight: bold;
+    padding-bottom: 0px 0px 15px 0px;
+}
+
+.listing-columns-style {
+    display: flex;
+}
+
+.columns-style table {
+    margin-right: 30px;
+}
+
+.columns-style td {
+    border: 1px solid rgb(211, 211, 211);
+    padding: 20px 13px 20px 13px;
+    border-collapse: collapse;
+}
+
+.columns-style p {
+    max-width: 130px;
+    font-size: 12px;
+    text-align: center;
+    color: rgb(117, 117, 117);
+    margin-left: -10px;
+}
+
+.columns-6-items-style td {
+    border: 1px solid rgb(211, 211, 211);
+    padding: 20px 10px 20px 10px;
+    border-collapse: collapse;
+}
+
+.columns-6-items-style p {
+    max-width: 130px;
+    font-size: 12px;
+    text-align: center;
+    color: rgb(117, 117, 117);
+}
+
+.pages-list {
+    position: absolute;
+    top: 42px;
+    left: 15px;
+    width: 100%;
+    background-color: #f3f3f3;
+    padding: 40px 20px 40px 20px;
+    display: none;
+}
+
+.store-pages p {
+    font-size: 13px;
+    font-weight: normal;
+    border-bottom: 2px solid rgb(211, 211, 211);
+    padding: 0px 0px 20px 0px;
+}
+
+.shopping-pages p {
+    font-size: 13px;
+    font-weight: normal;
+    border-bottom: 2px solid rgb(211, 211, 211);
+    padding: 0px 0px 20px 0px;
+}
+
+.other-pages p {
+    font-size: 13px;
+    font-weight: normal;
+    border-bottom: 2px solid rgb(211, 211, 211);
+    padding: 0px 0px 20px 0px;
+}
+
+.pages-list-ul ul {
+    display: inline-block;
+    list-style: none;
+    padding: 0px;
+}
+
+.pages-list-ul li {
+    width: 250px;
+    font-size: 12px;
+    font-weight: normal;
+    color: rgb(117, 117, 117);
+    margin: 0px;
+    padding: 10px 0px 0px 0px;
+}
+
+.store-pages p:hover {
+    color: rgb(18, 179, 104);
+    border-bottom: 2px solid rgb(18, 179, 104);
+}
+
+.shopping-pages p:hover {
+    color: rgb(18, 179, 104);
+    border-bottom: 2px solid rgb(18, 179, 104);
+}
+
+.other-pages p:hover {
+    color: rgb(18, 179, 104);
+    border-bottom: 2px solid rgb(18, 179, 104);
+}
+
+.menu-bar-list li:hover > .listing {
+    display: block;
+    z-index: 1;
+}
+
+.menu-bar-list li:hover > .pages-list {
+    display: inline-flex;
+    z-index: 1;
+}
+
+.background-webstore {
+    position: relative;
+}
+
+.background-image-text img {
+    width: 100%;
+}
+
+.background-image-text p:nth-child(2) {
+    position: absolute;
+    top: 200px;
+    left: 400px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+
+.background-image-text p:nth-child(3) {
+    max-width: 700px;
+    position: absolute;
+    top: 250px;
+    left: 320px;
+    text-align: center;
+    font-size: 70px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+
+.background-image-text p:nth-child(3) span {
+    color: rgb(35, 196, 115);
+}
+
+.background-image-text input {
+    min-width: 150px;
+    position: absolute;
+    top: 500px;
+    left: 600px;
+    font-size: 13px;
+    border: 1px solid rgb(119, 119, 119);
+    background-color: rgb(238, 87, 0);
+    padding: 15px;
+}
+
+.background-image-text input:hover {
+    background-color: #333;
+}
+
+.background-image-list ul {
+    position: absolute;
+    top: 500px;
+    left: 572.5px;
+    font-size: 30px;
+    list-style: circle;
+    display: inline-flex;
+    margin: 100px 0px 0px 40px;
+}
+
+.background-image-list li {
+    margin-right: 30px;
+}
+
+.background-image-list li:hover {
+    list-style: disc;
+    cursor: pointer;
+}
+
+.first-row-image img {
+    width: 80%;
+    margin: 0px 0px 0px -15px;
+}
+
+.first-row-text-box {
+    position: relative;
+    min-width: 833px;
+    background-color: rgb(35, 196, 115);
+    margin: 0px 0px 0px -159px;
+}
+
+.first-row-text-box img {
+    position: absolute;
+    width: 220px;
+    height: 150px;
+    top: 50px;
+    left: 320px;
+}
+
+.first-row-text-box p {
+    width: 600px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin: 250px 0px 0px 110px;
+    color: rgb(255, 255, 255);
+}
+
+.first-row-text-box input {
+    min-width: 150px;
+    font-size: 13px;
+    background-color: rgb(238, 87, 0);
+    padding: 13px;
+    border: 1px solid rgb(255, 255, 255);
+    margin: 30px 0px 0px 340px;
+}
+
+.first-row-text-box input:hover {
+    background-color: #333;
+}
+
+.second-row-first-image img {
+    position: relative;
+    min-width: 834px;
+    height: 516px;
+    margin: 0px 0px 0px -15px;
+    border: 1px solid rgb(255, 255, 255);
+    opacity: 0.6;
+}
+
+.second-row-first-image p:nth-child(2) {
+    position: absolute;
+    width: 350px;
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(35, 196, 115);
+    top: 150px;
+    left: 115px;
+    text-align: center;
+}
+
+.second-row-first-image p:nth-child(3) {
+    position: absolute;
+    width: 420px;
+    font-size: 15px;
+    top: 250px;
+    left: 80px;
+    text-align: center;
+    color: rgb(212, 212, 212);
+}
+
+.second-row-first-image input {
+    position: absolute;
+    min-width: 150px;
+    font-size: 13px;
+    padding: 10px;
+    top: 360px;
+    left: 215px;
+    background-color: rgb(35, 196, 115);
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.second-row-first-image input:hover {
+    background-color: #333;
+}
+
+.second-row-second-image img {
+    position: relative;
+    width: 80%;
+    margin: 0px 0px 0px 144px;
+    opacity: 0.1;
+}
+
+.second-row-second-image p:nth-child(2) {
+    position: absolute;
+    max-width: 380px;
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    top: 150px;
+    left: 230px;
+}
+
+.second-row-second-image p:nth-child(3) {
+    position: absolute;
+    max-width: 360px;
+    font-size: 14px;
+    top: 250px;
+    left: 240px;
+    text-align: center;
+}
+
+.second-row-second-image input {
+    position: absolute;
+    min-width: 150px;
+    font-size: 13px;
+    padding: 10px;
+    top: 360px;
+    left: 345px;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.collection-title p {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 50px 0px 50px 0px;
+}
+
+.collection-image {
+    margin: 0px 60px 0px 115px;
+}
+
+.collection-image img {
+    width: 300px;
+    height: 300px;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    opacity: 0.6;
+}
+
+.collection-image p {
+    font-size: 20px;
+    text-align: center;
+    margin: 20px 0px 0px -53px;
+    color: rgb(35, 196, 115);
+}
+
+.collection-image img:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.collection-image img:hover + p {
+    color: #333;
+    cursor: pointer;
+}
+
+.product-box {
+    position: relative;
+    margin-top: 40px;
+    padding: 0px;
+}
+
+.product-box img {
+    width: 270px;
+    height: 270px;
+    margin: 0px 0px 0px 30px;
+}
+
+.product-box p:nth-child(2) {
+    max-width: 215px;
+    font-size: 13px;
+    margin: 10px 0px 5px 58px;
+    text-align: center;
+}
+
+.product-box p:nth-child(3) {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0px 0px 10px 150px;
+    color: rgb(18, 179, 104);
+}
+
+.product-box i {
+    font-size: 40px;
+    position: absolute;
+    top: -10px;
+    left: 40px;
+    color: #333;
+    transform: rotateY(180deg);
+}
+
+.off-clock {
+    position: absolute;
+    background-color: #f3f3f3;
+    padding: 10px;
+    top: 200px;
+    left: 92px;
+    display: flex;
+    color: rgb(238, 87, 0);
+}
+
+.off-clock p {
+    color: rgb(238, 87, 0);
+}
+
+.off-clock p:nth-child(1) {
+    position: relative;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 0px 10px 10px 10px;
+    margin: 0px;
+}
+
+.off-clock p:nth-child(1) > span {
+    position: absolute;
+    top: 20px;
+    left: 5px;
+    font-size: 11px;
+    font-weight: normal;
+}
+
+.off-clock p:nth-child(2) {
+    position: relative;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 0px 10px 0px 10px;
+    margin: 0px;
+}
+
+.off-clock p:nth-child(2) > span {
+    position: absolute;
+    top: 20px;
+    left: 6px;
+    font-size: 11px;
+    font-weight: normal;
+}
+
+.off-clock p:nth-child(3) {
+    position: relative;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 0px 10px 0px 10px;
+    margin: 0px;
+    color: rgb(238, 87, 0);
+}
+
+.off-clock p:nth-child(3) > span {
+    position: absolute;
+    top: 20px;
+    left: 5px;
+    font-size: 11px;
+    font-weight: normal;
+    color: rgb(238, 87, 0);
+}
+
+.off-clock p:nth-child(4) {
+    position: relative;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 0px 10px 0px 10px;
+    margin: 0px;
+}
+
+.off-clock p:nth-child(4) > span {
+    position: absolute;
+    top: 20px;
+    left: 6px;
+    font-size: 11px;
+    font-weight: normal;
+}
+
+.product-box p:nth-child(5) {
+    position: absolute;
+    font-size: 12px;
+    top: -3.5px;
+    left: 47.5px;
+    color: rgb(255, 255, 255);
+}
+
+.hidden-box {
+    position: relative;
+    text-align: center;
+    display: none;
+}
+
+.hidden-box p:nth-child(1) {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #333;
+    border: 1px solid #333;
+    margin: 0px;
+    left: 130px;
+}
+
+.hidden-box p:nth-child(2) {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    background-color: rgb(207, 148, 70);
+    border: 1px solid rgb(207, 148, 70);
+    margin: 0px;
+    top: 4px;
+    left: 160px;
+}
+
+.hidden-box p:nth-child(3) {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+    margin: 0px;
+    left: 180px;
+}
+
+.hidden-box input {
+    font-size: 12px;
+    padding: 10px 20px 10px 40px;
+    background-color: rgb(18, 179, 104);
+    border: 1px solid rgb(148, 148, 148);
+    margin-top: 70px;
+    margin-left: -15px;
+}
+
+.hidden-box input:hover {
+    background-color: #333;
+}
+
+.btn-on-image {
+    position: absolute;
+    top: -300px;
+    left: 65px;
+}
+
+.btn-on-image i {
+    position: absolute;
+    top: 80px;
+    left: 50px;
+    font-size: 20px;
+    color: rgb(18, 179, 104);
+}
+
+.btn-on-image input {
+    background-color: white;
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 34px;
+}
+
+.btn-on-image:hover input {
+    background-color: rgb(18, 179, 104);
+    color: white;
+}
+
+.btn-on-image:hover i {
+    color: white;
+}
+
+.icons {
+    position: relative;
+    margin: 30px 0px 50px 0px;
+}
+
+.favorite i {
+    font-size: 20px;
+    margin: 0px -150px -20px 90px;
+}
+
+.favorite i:hover {
+    margin-left: 50px;
+    cursor: pointer;
+    color: rgb(18, 179, 104);
+}
+
+.favorite i:hover + span {
+    cursor: pointer;
+    color: rgb(18, 179, 104);
+    visibility: visible;
+}
+
+.favorite span {
+    position: absolute;
+    top: -7px;
+    left: 115px;
+    font-size: 11px;
+    color: rgb(148, 148, 148);
+    visibility: hidden;
+}
+
+.compare i {
+    font-size: 20px;
+    margin-left: 130px;
+}
+
+.compare i:hover {
+    margin-left: 80px;
+    cursor: pointer;
+    color: rgb(18, 179, 104);
+}
+
+.compare i:hover + span {
+    cursor: pointer;
+    color: rgb(18, 179, 104);
+    visibility: visible;
+}
+
+.compare span {
+    position: absolute;
+    top: -7px;
+    left: 145px;
+    font-size: 11px;
+    color: rgb(148, 148, 148);
+    visibility: hidden;
+}
+
+.product-box:hover > .hidden-box {
+    cursor: pointer;
+    display: block;
+}
+
+.mail-border {
+    position: relative;
+}
+
+.mail-border img {
+    width: 100%;
+    height: 500px;
+    opacity: 0.4;
+    margin-top: 50px;
+}
+
+.mail-border p:nth-child(2) {
+    position: absolute;
+    top: 250px;
+    left: 200px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.mail-border p:nth-child(3) {
+    position: absolute;
+    top: 320px;
+    left: 200px;
+    font-size: 15px;
+    max-width: 370px;
+}
+
+.mail-input {
+    position: absolute;
+    top: 400px;
+    left: 185px;
+    font-size: 12px;
+}
+
+.mail-input input[type="text"] {
+    min-width: 350px;
+    padding: 10px 0px 10px 50px;
+    border: 1px solid rgb(211, 211, 211);
+}
+
+.mail-input input[type="submit"] {
+    min-width: 100px;
+    padding: 10px;
+    border: 1px solid rgb(211, 211, 211);
+    background-color: rgb(18, 179, 104);
+}
+
+.mail-input input[type="submit"]:hover {
+    background-color: #333;
+}
+
+.follow-insta {
+    width: 102.3%;
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 60px;
+    margin: 70px 0px 80px -15px;
+    border-bottom: 1px solid rgb(211, 211, 211);
+}
+
+.follow-insta span {
+    color: rgb(18, 179, 104);
+}
+
+.menu-bar-bottom {
+    margin: 20px 0px 40px 0px;
+}
+
+.menu-bar-bottom ul {
+    list-style: none;
+}
+
+.menu-bar-bottom li {
+    display: inline-block;
+    padding: 20px 35px 0px 0px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.menu-bar-bottom li:hover {
+    color: rgb(35, 196, 115);
+    cursor: pointer;
+}
+
+.contact-info ul {
+    max-width: 700px;
+    list-style: none;
+    display: inline-flex;
+}
+
+.contact-info li {
+    font-size: 13px;
+    color: rgb(119, 119, 119);
+    padding-right: 30px;
+}
+
+.social-media-icons {
+    position: relative;
+    margin-top: 20px;
+}
+
+.social-media-icons i:nth-child(1) {
+    width: 35px;
+    height: 35px;
+    font-size: 16px;
+    border: 1px solid rgb(117, 117, 117);
+    border-radius: 100%;
+    padding-top: 8px;
+    opacity: 0.5;
+    position: absolute;
+    top: 0px;
+    left: 575px;
+}
+
+.social-media-icons i:nth-child(2) {
+    width: 35px;
+    height: 35px;
+    font-size: 16px;
+    border: 1px solid rgb(117, 117, 117);
+    border-radius: 100%;
+    padding-top: 8px;
+    opacity: 0.5;
+    position: absolute;
+    top: 0px;
+    left: 620.5px;
+}
+
+.social-media-icons i:nth-child(3) {
+    width: 35px;
+    height: 35px;
+    font-size: 16px;
+    border: 1px solid rgb(117, 117, 117);
+    border-radius: 100%;
+    padding-top: 8px;
+    opacity: 0.5;
+    position: absolute;
+    top: 0px;
+    left: 667.5px;
+}
+
+.social-media-icons i:nth-child(4) {
+    width: 35px;
+    height: 35px;
+    font-size: 16px;
+    border: 1px solid rgb(117, 117, 117);
+    border-radius: 100%;
+    padding-top: 8px;
+    opacity: 0.5;
+    position: absolute;
+    top: 0px;
+    left: 715px;
+}
+
+.social-media-icons i:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.tags-icon {
+    position: relative;
+}
+
+.tags-icon i {
+    padding-right: 5px;
+    margin-top: 80px;
+    font-size: 22px;
+    color: rgb(179, 179, 179);
+    opacity: 0.5;
+}
+
+.tags-icon i:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.rights-reserved {
+    width: 102.3%;
+    background-color: #333;
+    padding: 35px 0px 20px 0px;
+    margin: 100px 0px 0px -15px;
+    font-size: 11px;
+}
+
+.rights-reserved span {
+    color: rgb(18, 179, 104);
+}

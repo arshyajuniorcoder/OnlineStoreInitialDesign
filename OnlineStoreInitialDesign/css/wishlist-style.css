@@ -1,0 +1,33 @@
+.favorite {
+    border-top: 1px solid rgb(211, 211, 211);
+}
+
+.favorite-list {
+    border-bottom: 1px solid rgb(211, 211, 211);
+}
+
+.favorite-list img {
+    width: 150px;
+    height: 150px;
+    margin: 40px 40px 40px 0px;
+    padding: 5px;
+}
+
+.favorite-list p:nth-child(2) {
+    font-size: 13px;
+    padding-top: 100px;
+}
+
+.favorite-list p:nth-child(3) {
+    font-size: 22px;
+    padding-top: 94px;
+    margin-left: 250px;
+}
+
+.favorite-list p:nth-child(2):hover {
+    color: rgb(18, 179, 104);
+}
+
+.favorite-list i:nth-child(4):hover {
+    color: rgb(18, 179, 104);
+}

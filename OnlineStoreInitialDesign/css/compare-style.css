@@ -1,0 +1,73 @@
+.print-logo {
+    position: absolute;
+    margin: 65px 20px -20px 120px;
+}
+
+.print-logo p {
+    font-size: 12px;
+}
+
+.print-logo:hover {
+    color: rgb(18, 179, 104);
+    cursor: pointer;
+}
+
+.border-compare {
+    border-top: 1px solid rgb(211, 211, 211);
+    margin: 20px 40px -20px 15px;
+}
+
+.compare-title {
+    max-width: 220px;
+    border-right: 1px solid rgb(211, 211, 211);
+}
+
+.compare-title p {
+    font-size: 13px;
+    padding-top: 20px;
+}
+
+.compare-info {
+    min-width: 417.5px;
+    border-right: 1px solid rgb(211, 211, 211);
+    padding: 33px;
+}
+
+.compare-info i:nth-child(1):hover {
+    color: rgb(18, 179, 104);
+    cursor: pointer;
+}
+
+.compare-info img {
+    width: 350px;
+    height: 350px;
+}
+
+.compare-info p:nth-child(3) {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.compare-info p:nth-child(4) {
+    font-size: 22px;
+    text-align: center;
+    margin-top: -10px;
+    color: rgb(18, 179, 104);
+}
+
+.add-cart-btn {
+    position: relative;
+    text-align: center;
+}
+
+.add-cart-btn input {
+    background-color: rgb(18, 179, 104);
+    font-size: 13px;
+    padding: 8px 20px 8px 45px;
+    border: none;
+}
+
+.add-cart-btn input:hover {
+    background-color: #333;
+}

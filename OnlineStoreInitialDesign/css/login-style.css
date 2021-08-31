@@ -1,0 +1,88 @@
+.register {
+    max-width: 500px;
+    padding: 50px 40px 0px 40px;
+    margin: 0px 20px 50px 160px;
+    border: 1px solid rgb(211, 211, 211);
+}
+
+.register p:nth-child(1) {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.register p:nth-child(2) {
+    width: 400px;
+    font-size: 13px;
+    text-align: justify;
+    opacity: 0.5;
+}
+
+.register input {
+    background-color: white;
+    color: black;
+    font-size: 11px;
+    padding: 10px 18px 10px 18px;
+    margin-top: 100px;
+    border: 1px solid rgb(211, 211, 211);
+}
+
+.register input:hover {
+    background-color: #333;
+}
+
+.signin {
+    max-width: 500px;
+    padding: 50px 40px 50px 40px;
+    margin: 0px 0px 50px 20px;
+    border: 1px solid rgb(211, 211, 211);
+}
+
+.signin p:nth-child(1) {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.signin p:nth-child(2) {
+    width: 400px;
+    font-size: 13px;
+    text-align: justify;
+    opacity: 0.5;
+}
+
+.text-box input:nth-child(1) {
+    width: 380px;
+    padding: 5px;
+    margin: 10px 0px 10px 70px;
+    border: 1px solid rgb(211, 211, 211);
+}
+
+.text-box input:nth-child(2) {
+    width: 380px;
+    margin: 10px 0px 10px 70px;
+    border: 1px solid rgb(211, 211, 211);
+}
+
+.sign-btn input {
+    background-color: rgb(18, 179, 104);
+    color: white;
+    font-size: 11px;
+    padding: 10px 18px 10px 18px;
+    margin: 10px 0px 10px 0px;
+    border: none;
+}
+
+.sign-btn input:hover {
+    background-color: #333;
+}
+
+.sign-footer p:nth-child(1),
+a:nth-child(1) {
+    color: black;
+    font-size: 10px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.sign-footer a:nth-child(1):hover {
+    color: rgb(18, 179, 104);
+}

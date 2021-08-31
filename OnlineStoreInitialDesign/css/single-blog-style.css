@@ -1,0 +1,781 @@
+.left-box {
+    min-width: 780px;
+    margin-left: 30px;
+}
+
+.label {
+    min-width: 125px;
+    margin-left: 0px;
+}
+
+.label p:nth-child(1) {
+    width: 56px;
+    background-color: rgb(18, 179, 104);
+    font-size: 11px;
+    font-weight: bold;
+    padding: 2px 6px 2px 9px;
+    margin-right: 5px;
+}
+
+.label p:nth-child(1):hover {
+    background-color: #333;
+    cursor: pointer;
+}
+
+.label p:nth-child(2) {
+    width: 44px;
+    background-color: rgb(18, 179, 104);
+    font-size: 11px;
+    font-weight: bold;
+    padding: 2px 6px 2px 9px;
+}
+
+.label p:nth-child(2):hover {
+    background-color: #333;
+    cursor: pointer;
+}
+
+.product-info p:nth-child(1) {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.product-info p:nth-child(1):hover {
+    color: rgb(18, 179, 104);
+    cursor: pointer;
+}
+
+.product-info p:nth-child(2) {
+    font-size: 12px;
+    margin-top: -8px;
+    color: rgb(150, 150, 150);
+}
+
+.product-info p:nth-child(2) span {
+    color: rgb(18, 179, 104);
+}
+
+.product-info p:nth-child(3) {
+    font-size: 14px;
+    margin-top: 35px;
+    text-align: justify;
+    color: rgb(150, 150, 150);
+}
+
+.product-main-image img {
+    width: 780px;
+    height: 780px;
+    margin-top: 20px;
+}
+
+.product-main-image-first-description {
+    position: relative;
+    max-width: 780px;
+    margin-left: 0px;
+}
+
+.product-main-image-first-description p:nth-child(1) {
+    max-height: 78px;
+    font-size: 65px;
+    position: absolute;
+    top: 20px;
+    padding: 0px 7px 0px 7px;
+    margin: 0px;
+    color: rgb(18, 179, 104);
+}
+
+.product-main-image-first-description span:nth-child(2) {
+    font-size: 13px;
+    margin: 43px 0px 30px 66px;
+    text-align: justify;
+    color: rgb(150, 150, 150);
+}
+
+.product-main-image-second-description p {
+    font-size: 13px;
+    margin: 0px;
+    text-align: justify;
+    color: rgb(150, 150, 150);
+}
+
+.product-sub-images img {
+    width: 350px;
+    height: 350px;
+    margin: 40px 0px 40px 0px;
+}
+
+.product-sub-images-first-description p {
+    font-size: 13px;
+    margin: 0px;
+    text-align: justify;
+    color: rgb(150, 150, 150);
+}
+
+.product-sub-images-second-description {
+    min-width: 780px;
+    position: relative;
+    margin-top: 40px;
+}
+
+.product-sub-images-second-description p:nth-child(1) {
+    font-size: 50px;
+    background-color: rgb(18, 179, 104);
+    position: absolute;
+    padding: 0px 7px 0px 7px;
+}
+
+.product-sub-images-second-description p:nth-child(2) {
+    font-size: 17.5px;
+    text-align: justify;
+    margin-top: -8px;
+    margin: -6px 0px 14px 60px;
+    color: black;
+}
+
+.product-sub-images-second-description p:nth-child(3) {
+    font-size: 12px;
+    margin-left: 75px;
+    color: rgb(150, 150, 150);
+}
+
+.product-sub-images-third-description p {
+    font-size: 13px;
+    margin-top: 20px;
+    color: rgb(150, 150, 150);
+}
+
+.product-ver-image img {
+    width: 100%;
+    margin: 40px 0px 20px 0px;
+}
+
+.product-com-tag {
+    min-width: 780px;
+    position: relative;
+}
+
+.product-com-tag p:nth-child(1) {
+    max-width: 108px;
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(18, 179, 104);
+    margin-top: 20px;
+}
+
+.product-com-tag p:nth-child(2) {
+    max-width: 184px;
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(18, 179, 104);
+    margin-top: 20px;
+}
+
+.product-com-tag p:nth-child(2) span {
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(150, 150, 150);
+}
+
+.social-icon {
+    min-width: 780px;
+    position: relative;
+    padding-bottom: 40px;
+    margin: 20px 0px 0px 0px;
+    color: rgb(150, 150, 150);
+    border-bottom: 1px solid rgb(211, 211, 211);
+}
+
+.back-forward {
+    min-width: 780px;
+    padding-bottom: 20px;
+    margin: 40px 40px 0px 0px;
+    border-bottom: 1px solid rgb(211, 211, 211);
+}
+
+.back-forward i {
+    color: rgb(150, 150, 150);
+}
+
+.back-forward i:hover {
+    color: #333;
+    cursor: pointer;
+}
+
+.back-forward p {
+    max-width: 120px;
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+.about-author {
+    min-width: 780px;
+    position: relative;
+    margin: 40px 50px 0px 0px;
+    border-bottom: 1px solid rgb(211, 211, 211);
+}
+
+.about-author img {
+    width: 120px;
+    height: 120px;
+    border: 2px solid rgb(150, 150, 150);
+    border-radius: 100%;
+    position: absolute;
+}
+
+.about-author p:nth-child(2) {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0px 0px 10px 150px;
+}
+
+.about-author p:nth-child(3) {
+    font-size: 13px;
+    color: rgb(150, 150, 150);
+    margin: 15px 0px 60px 150px;
+    text-align: justify;
+}
+
+.other-product {
+    max-width: 780px;
+    margin: 40px 0px 0px 0px;
+    border-bottom: 1px solid rgb(211, 211, 211);
+    padding-bottom: 50px;
+}
+
+.other-product-box {
+    max-width: 405px;
+    margin: 0px;
+}
+
+.other-product-box p:nth-child(1) {
+    width: 60px;
+    background-color: rgb(18, 179, 104);
+    font-size: 11px;
+    font-weight: bold;
+    padding: 2px 6px 2px 6px;
+    position: absolute;
+    top: 7px;
+    left: 22px;
+}
+
+.other-product-box p:nth-child(1):hover {
+    background-color: #333;
+    cursor: pointer;
+}
+
+.other-product-box img {
+    width: 100%;
+}
+
+.other-product-box p:nth-child(3) {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.other-product-box p:nth-child(3):hover {
+    color: rgb(18, 179, 104);
+    cursor: pointer;
+}
+
+.other-product-box p:nth-child(4) {
+    font-size: 12px;
+}
+
+.other-product-box p:nth-child(4) span {
+    color: rgb(18, 179, 104);
+}
+
+.other-product-box p:nth-child(5) {
+    max-width: 310px;
+    font-size: 14px;
+    text-align: justify;
+}
+
+.other-product-box p:nth-child(6) {
+    max-width: 94px;
+    font-size: 11px;
+    font-weight: bold;
+    margin: 14px 0px 0px 0px;
+}
+
+.comments {
+    max-width: 780px;
+    margin-top: 40px;
+    border-bottom: 1px solid rgb(211, 211, 211);
+}
+
+.comments p:nth-child(1) {
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.admin-comment {
+    position: relative;
+    margin-bottom: 60px;
+}
+
+.admin-comment img {
+    width: 70px;
+    height: 70px;
+    border: 2px solid rgb(150, 150, 150);
+    border-radius: 100%;
+    position: absolute;
+    margin-top: 9px;
+}
+
+.admin-comment p:nth-child(2) {
+    font-size: 13px;
+    font-weight: bold;
+    margin: 0px 0px 5px 90px;
+}
+
+.admin-comment p:nth-child(3) {
+    font-size: 11px;
+    margin: 0px 0px 10px 90px;
+    color: rgb(150, 150, 150);
+}
+
+.admin-comment p:nth-child(4) {
+    position: absolute;
+    font-size: 12px;
+    direction: rtl;
+    text-decoration: underline;
+    color: rgb(18, 179, 104);
+    top: 0px;
+    right: 0px;
+}
+
+.admin-comment p:nth-child(5) {
+    font-size: 12px;
+    margin: 0px 0px 0px 90px;
+    color: rgb(150, 150, 150);
+}
+
+.reply {
+    min-width: 780px;
+    margin-top: 60px;
+}
+
+.reply p:nth-child(1) {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.reply label {
+    font-size: 12px;
+    margin: 10px -110px 0px 0px;
+}
+
+.reply input,
+textarea {
+    min-width: 500px;
+    font-size: 13px;
+    padding: 10px;
+    border: 1px solid rgb(150, 150, 150);
+    margin: 0px 0px 20px 0px;
+}
+
+.reply textarea {
+    height: 140px;
+}
+
+.reply-btn form input {
+    min-width: 150px;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: rgb(18, 179, 104);
+    border: 1px solid rgb(150, 150, 150);
+    margin: 15px 0px 60px 281px;
+}
+
+.reply-btn form input:hover {
+    background-color: #333;
+}
+
+.right-box {
+    max-width: 290px;
+    max-height: 3125px;
+    border-left: 3px solid rgb(211, 211, 211);
+    margin-left: 40px;
+    padding-left: 30px;
+}
+
+.categories {
+    max-width: 290px;
+    border-bottom: 1px solid rgb(211, 211, 211);
+    padding-bottom: 30px;
+}
+
+.categories p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.categories ul {
+    list-style: none;
+    padding: 0px;
+    font-size: 12px;
+}
+
+.categories li {
+    margin-bottom: 5px;
+    color: rgb(150, 150, 150);
+}
+
+.about {
+    max-width: 290px;
+    padding-bottom: 30px;
+    margin-top: 40px;
+    border-bottom: 1px solid rgb(211, 211, 211);
+}
+
+.about p:nth-child(1) {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.about img {
+    width: 150px;
+    height: 150px;
+    border: 1px solid rgb(150, 150, 150);
+    border-radius: 100%;
+    margin: 0px 0px 20px 45px;
+}
+
+.about p:nth-child(3) {
+    font-size: 13px;
+    text-align: justify;
+    color: rgb(150, 150, 150);
+}
+
+.about form input {
+    font-size: 13px;
+    padding: 8px 15px 8px 15px;
+    margin: 10px 0px 20px 0px;
+    background-color: rgb(18, 179, 104);
+    border: 1px solid rgb(150, 150, 150);
+}
+
+.about form input:hover {
+    background-color: #333;
+}
+
+.featured {
+    max-width: 290px;
+    border-bottom: 1px solid rgb(211, 211, 211);
+    padding-bottom: 10px;
+}
+
+.featured p:nth-child(1) {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 40px 0px 30px 0px;
+}
+
+.featured img {
+    width: 100%;
+}
+
+.featured p:nth-child(2) {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 20px 0px 5px 0px;
+}
+
+.featured p:nth-child(3) {
+    font-size: 11px;
+    color: rgb(150, 150, 150);
+    margin: 0px 0px 10px 0px;
+}
+
+.featured p:nth-child(3) span {
+    color: rgb(18, 179, 104);
+}
+
+.featured p:nth-child(4) {
+    font-size: 13px;
+    text-align: justify;
+    color: rgb(150, 150, 150);
+    margin-bottom: 8px;
+}
+
+.featured p:nth-child(5) {
+    font-size: 12px;
+    color: rgb(18, 179, 104);
+    margin-bottom: 30px;
+}
+
+.community {
+    max-width: 290px;
+    border-bottom: 1px solid rgb(211, 211, 211);
+    padding-bottom: 60px;
+}
+
+.community p:nth-child(1) {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+.community p:nth-child(2) {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.community-radio {
+    font-size: 13px;
+}
+
+.community-btn input {
+    min-width: 60px;
+    font-size: 11px;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: rgb(18, 179, 104);
+    border: 1px solid rgb(18, 179, 104);
+}
+
+.community-btn input:hover {
+    background-color: #333;
+}
+
+.tags {
+    max-width: 290px;
+    margin-top: 40px;
+    border-bottom: 1px solid rgb(211, 211, 211);
+    padding-bottom: 40px;
+}
+
+.tags p:nth-child(1) {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.tags input:nth-child(1) {
+    font-size: 13px;
+    border: 1px solid rgb(150, 150, 150);
+    background-color: #333;
+    padding: 8px 15px 8px 15px;
+}
+
+.tags input:nth-child(2) {
+    font-size: 13px;
+    border: 1px solid rgb(150, 150, 150);
+    padding: 8px 15px 8px 15px;
+}
+
+.tags input:nth-child(3) {
+    font-size: 13px;
+    border: 1px solid rgb(150, 150, 150);
+    padding: 8px 15px 8px 15px;
+}
+
+.archives {
+    max-width: 290px;
+    margin-top: 40px;
+    border-bottom: 1px solid rgb(211, 211, 211);
+    padding-bottom: 40px;
+}
+
+.archives p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.archives select {
+    width: 243px;
+    font-size: 13px;
+    padding: 10px;
+    border: 1px solid rgb(150, 150, 150);
+}
+
+.calendar {
+    max-width: 290px;
+    margin-top: 40px;
+    border-bottom: 1px solid rgb(211, 211, 211);
+    padding-bottom: 40px;
+}
+
+.calendar p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.month {
+    max-width: 290px;
+    background: #333;
+    text-align: center;
+    position: relative;
+}
+
+.month i {
+    color: rgb(211, 211, 211);
+}
+
+.month p {
+    font-size: 15px;
+    padding: 10px;
+    margin-bottom: 0px;
+    color: #eee;
+}
+
+.weekdays ul {
+    list-style: none;
+    padding: 0px;
+    background-color: rgb(211, 211, 211);
+    margin: 0px;
+}
+
+.weekdays li {
+    display: inline-block;
+    width: 12%;
+    font-size: 13px;
+    color: rgb(95, 95, 95);
+}
+
+.weekdays li:nth-child(1) {
+    padding-left: 9px;
+}
+
+.weekdays li:nth-child(2) {
+    padding-left: 8px;
+}
+
+.weekdays li:nth-child(3) {
+    padding-left: 10px;
+}
+
+.weekdays li:nth-child(4) {
+    padding-left: 10px;
+}
+
+.weekdays li:nth-child(5) {
+    padding-left: 12px;
+}
+
+.weekdays li:nth-child(6) {
+    padding-left: 16px;
+}
+
+.weekdays li:nth-child(7) {
+    padding-left: 15px;
+}
+
+.days ul {
+    list-style: none;
+    background-color: rgb(240, 240, 240);
+    margin-top: 0px;
+    padding: 0px;
+    padding-bottom: 10px;
+}
+
+.days li {
+    display: inline-block;
+    width: 12.5%;
+    font-size: 12px;
+    text-align: center;
+
+}
+
+.days li .active {
+    padding: 5px;
+    background: rgb(18, 179, 104);
+    color: white;
+}
+
+.delivered {
+    max-width: 290px;
+    margin-top: 40px;
+}
+
+.delivered p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.delivered-mail {
+    margin: 0px 0px 20px 0px;
+    position: relative;
+}
+
+.delivered-mail input {
+    min-width: 242px;
+    font-size: 13px;
+    padding: 10px 0px 10px 40px;
+    border: 1px solid rgb(150, 150, 150);
+}
+
+.delivered-btn {
+    margin: 10px 0px 0px 0px;
+}
+
+.delivered-btn input {
+    font-size: 13px;
+    background-color: rgb(18, 179, 104);
+    border: 1px solid rgb(18, 179, 104);
+    padding: 10px;
+}
+
+.delivered-btn input:hover {
+    background-color: #333;
+}
+
+.follow {
+    position: relative;
+    max-width: 290px;
+    margin-top: 40px;
+    border-bottom: 1px solid rgb(211, 211, 211);
+    padding-bottom: 80px;
+}
+
+.follow p:nth-child(1) {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.follow i {
+    color: rgb(150, 150, 150);
+}
+
+.follow i:hover {
+    color: #333;
+    cursor: pointer;
+}
+
+.recent {
+    max-width: 290px;
+    margin-top: 40px;
+    padding-bottom: 40px;
+}
+
+.recent-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.recent-product {
+    margin-top: 25px;
+}
+
+.recent-product p:nth-child(1) {
+    font-size: 11px;
+    color: rgb(150, 150, 150);
+    margin-bottom: 2px;
+}
+
+.recent-product p:nth-child(1) span {
+    color: rgb(18, 179, 104);
+}
+
+.recent-product p:nth-child(2) {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.recent-product p:nth-child(3) {
+    font-size: 13px;
+    color: rgb(150, 150, 150);
+}

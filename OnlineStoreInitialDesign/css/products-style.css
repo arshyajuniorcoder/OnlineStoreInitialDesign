@@ -1,0 +1,880 @@
+.left-box {
+    min-width: 780px;
+    margin: 40px 0px 0px 32px;
+}
+
+.header-text p:nth-child(1) {
+    max-width: 390px;
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 0px;
+}
+
+.header-text p:nth-child(2) {
+    max-width: 390px;
+    font-size: 13px;
+    color: rgb(148, 148, 148);
+    margin-top: 2.5px;
+    padding-left: 333px;
+    padding-right: 0px;
+}
+
+.header-text p:nth-child(3) {
+    font-size: 13px;
+    color: rgb(148, 148, 148);
+    text-align: justify;
+    margin-bottom: 30px;
+}
+
+.product-info {
+    position: relative;
+    border-bottom: 1px solid rgb(211, 211, 211);
+    padding-bottom: 50px;
+}
+
+.product-info img {
+    width: 100%;
+    height: 600px;
+    opacity: 0.5;
+}
+
+.product-info p:nth-child(2) {
+    max-width: 300px;
+    position: absolute;
+    top: 120px;
+    left: 60px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.product-info p:nth-child(3) {
+    max-width: 265px;
+    position: absolute;
+    top: 250px;
+    left: 60px;
+    font-size: 13px;
+}
+
+.product-info form input {
+    min-width: 110px;
+    position: absolute;
+    top: 330px;
+    left: 60px;
+    font-size: 11px;
+    font-weight: bold;
+    padding: 10px;
+    background-color: rgb(255, 120, 42);
+    border: 1px solid rgb(148, 148, 148);
+}
+
+.product-info form input:hover {
+    background-color: #333;
+}
+
+.categories-image {
+    max-width: 780px;
+    font-size: 18px;
+    padding: 40px 0px 30px 0px;
+    border-bottom: 1px solid rgb(211, 211, 211);
+    color: rgb(18, 179, 104);
+}
+
+.categories-image div {
+    padding: 0px;
+}
+
+.categories-image img {
+    width: 100%;
+    margin: 0px;
+    padding: 0px 0px 20px 0px;
+}
+
+.categories-image p {
+    text-align: center;
+    font-weight: bold;
+}
+
+.sort-box {
+    position: relative;
+    max-width: 390px;
+    margin-top: 40px;
+    padding: 0px;
+}
+
+.sort-box label {
+    font-size: 12px;
+    margin-right: 10px;
+}
+
+.sort-box select {
+    min-width: 150px;
+    padding: 10px;
+    font-size: 12px;
+    border: 1px solid rgb(148, 148, 148);
+}
+
+.sort-box i {
+    position: absolute;
+    border: 1px solid rgb(148, 148, 148);
+    padding: 6.8px;
+}
+
+.sort-box i:nth-child(3) {
+    left: 210px;
+    color: rgb(18, 179, 104);
+}
+
+.sort-box i:nth-child(4) {
+    left: 255px;
+    transform: rotateX(180deg);
+}
+
+.sort-box i:hover {
+    color: #333;
+    border: 1px solid rgb(18, 179, 104);
+    cursor: pointer;
+}
+
+.show-box {
+    position: relative;
+    max-width: 390px;
+    margin-top: 40px;
+    padding: 0px;
+}
+
+.show-box label {
+    font-size: 12px;
+    margin-right: 10px;
+}
+
+.show-box select {
+    min-width: 80px;
+    padding: 10px;
+    font-size: 12px;
+    border: 1px solid rgb(148, 148, 148);
+}
+
+.show-box i {
+    position: absolute;
+    border: 1px solid rgb(148, 148, 148);
+    padding: 6.8px;
+}
+
+.show-box i:nth-child(3) {
+    left: 135px;
+    color: rgb(18, 179, 104);
+}
+
+.show-box i:nth-child(4) {
+    left: 180px;
+}
+
+.show-box i:hover {
+    color: #333;
+    border: 1px solid rgb(18, 179, 104);
+    cursor: pointer;
+}
+
+.product-box {
+    position: relative;
+    margin-top: 40px;
+    padding: 0px;
+}
+
+.product-box img {
+    width: 90%;
+}
+
+.product-box p:nth-child(2) {
+    max-width: 223px;
+    font-size: 13px;
+    margin: 10px 0px 5px 3px;
+    text-align: center;
+}
+
+.product-box p:nth-child(3) {
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 100px;
+    color: rgb(18, 179, 104);
+}
+
+.product-box i {
+    font-size: 40px;
+    position: absolute;
+    top: -10px;
+    left: 5px;
+    color: #333;
+    transform: rotateY(180deg);
+}
+
+.product-box p:nth-child(5) {
+    position: absolute;
+    font-size: 12px;
+    top: -3.5px;
+    left: 12.5px;
+    color: white;
+}
+
+.hidden-box {
+    position: relative;
+    text-align: center;
+    display: none;
+}
+
+.hidden-box p:nth-child(1) {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #333;
+    border: 1px solid #333;
+    margin: 0px;
+    left: 80px;
+}
+
+.hidden-box p:nth-child(2) {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    background-color: rgb(207, 148, 70);
+    border: 1px solid rgb(207, 148, 70);
+    margin: 0px;
+    top: 4px;
+    left: 114px;
+}
+
+.hidden-box p:nth-child(3) {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+    margin: 0px;
+    left: 140px;
+}
+
+.hidden-box input {
+    font-size: 12px;
+    padding: 10px 20px 10px 40px;
+    background-color: rgb(18, 179, 104);
+    border: 1px solid rgb(148, 148, 148);
+    margin-top: 70px;
+    margin-left: -15px;
+}
+
+.hidden-box input:hover {
+    background-color: #333;
+}
+
+.btn-on-image {
+    position: absolute;
+    top: -300px;
+    left: 65px;
+}
+
+.btn-on-image i {
+    position: absolute;
+    top: 80px;
+    left: 0px;
+    font-size: 20px;
+    color: rgb(18, 179, 104);
+}
+
+.btn-on-image input {
+    background-color: white;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.btn-on-image:hover input {
+    background-color: rgb(18, 179, 104);
+    color: white;
+}
+
+.btn-on-image:hover i {
+    color: white;
+}
+
+.icons {
+    position: relative;
+    margin: 30px 0px 50px 0px;
+}
+
+.favorite i {
+    font-size: 20px;
+    margin: 0px -150px -20px 90px;
+}
+
+.favorite i:hover {
+    margin-left: 50px;
+    cursor: pointer;
+    color: rgb(18, 179, 104);
+}
+
+.favorite i:hover + span {
+    cursor: pointer;
+    color: rgb(18, 179, 104);
+    visibility: visible;
+}
+
+.favorite span {
+    position: absolute;
+    top: -7px;
+    left: 80px;
+    font-size: 11px;
+    color: rgb(148, 148, 148);
+    visibility: hidden;
+}
+
+.compare i {
+    font-size: 20px;
+    margin-left: 130px;
+}
+
+.compare i:hover {
+    margin-left: 80px;
+    cursor: pointer;
+    color: rgb(18, 179, 104);
+}
+
+.compare i:hover + span {
+    cursor: pointer;
+    color: rgb(18, 179, 104);
+    visibility: visible;
+}
+
+.compare span {
+    position: absolute;
+    top: -7px;
+    left: 110px;
+    font-size: 11px;
+    color: rgb(148, 148, 148);
+    visibility: hidden;
+}
+
+.product-box:hover > .hidden-box {
+    cursor: pointer;
+    display: block;
+}
+
+.page {
+    max-width: 780px;
+    border-top: 1px solid rgb(211, 211, 211);
+    margin-top: 40px;
+}
+
+.page-number {
+    max-width: 315px;
+    margin: 60px 0px 70px 0px;
+    margin-left: 0px;
+}
+
+.page-number p {
+    width: 40px;
+    height: 40px;
+    border: 1px solid rgb(211, 211, 211);
+    text-align: center;
+    padding-top: 6px;
+    margin-right: 5px;
+}
+
+.page-number p:hover {
+    color: rgb(18, 179, 104);
+    border: 1px solid rgb(18, 179, 104);
+    cursor: pointer;
+}
+
+.page-btn {
+    max-width: 100px;
+    margin: 60px 0px 70px 0px;
+    position: relative;
+}
+
+.page-btn form input {
+    background-color: rgb(18, 179, 104);
+    padding: 8px 40px 8px 10px;
+    border: none;
+}
+
+.page-btn form input:hover {
+    background-color: #333;
+}
+
+.right-box {
+    max-width: 288px;
+    max-height: 3800px;
+    border-left: 3px solid rgb(211, 211, 211);
+    margin: 90px 0px 0px 40px;
+    padding-left: 40px;
+}
+
+.shipping {
+    max-width: 288px;
+    border-bottom: 1px solid rgb(211, 211, 211);
+    padding-bottom: 30px;
+}
+
+.shipping p:nth-child(1) {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding: 0px;
+}
+
+.shipping p:nth-child(3) {
+    font-size: 13px;
+    margin-bottom: 10px;
+    padding: 0px;
+}
+
+.shipping p:nth-child(3) span {
+    color: rgb(18, 179, 104);
+}
+
+.shipping p:nth-child(5) {
+    font-size: 13px;
+    margin-bottom: 10px;
+    padding: 0px;
+}
+
+.shipping p:nth-child(5) span {
+    color: rgb(18, 179, 104);
+}
+
+.shipping p:nth-child(7) {
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.product-gender-filter {
+    max-width: 288px;
+    border-bottom: 1px solid rgb(211, 211, 211);
+    padding-bottom: 30px;
+}
+
+.product-gender-filter p:nth-child(1) {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+    padding: 0px;
+}
+
+.product-gender-filter ul {
+    list-style: none;
+    padding: 0px;
+}
+
+.product-gender-filter li {
+    font-size: 13px;
+    color: rgb(148, 148, 148);
+    margin-bottom: 10px;
+}
+
+.price {
+    max-width: 288px;
+    border-bottom: 1px solid rgb(211, 211, 211);
+    padding-bottom: 60px;
+}
+
+.price p:nth-child(1) {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 40px;
+    padding: 0px;
+}
+
+.range-controls {
+    position: relative;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.range-min-number {
+    position: absolute;
+    font-size: 13px;
+    top: -10px;
+}
+
+.range-max-number {
+    position: absolute;
+    font-size: 13px;
+    top: -10px;
+    right: 30px;
+}
+
+.scale {
+    position: absolute;
+    min-width: 230px;
+    border-top: 2px solid rgb(194, 194, 194);
+    top: 18.5px;
+    left: 0px;
+}
+
+.sub-scale {
+    position: absolute;
+    min-width: 135px;
+    border-top: 2px solid rgb(18, 179, 104);
+    top: -2px;
+    left: 36px;
+}
+
+.toggle {
+    position: absolute;
+    border: 8px solid rgb(0, 0, 0);
+    cursor: pointer;
+    border-radius: 100%;
+}
+
+.min-toggle {
+    top: 12px;
+    left: 20px;
+}
+
+.max-toggle {
+    top: 12px;
+    right: 43px;
+}
+
+.price-controls label {
+    font-size: 12px;
+    margin: 20px 0px 0px 0px;
+}
+
+.price-controls input {
+    min-width: 230px;
+    border: none;
+    background-color: rgb(236, 235, 235);
+    color: rgb(99, 99, 99);
+    font-size: 13px;
+    padding: 10px 0px 10px 20px;
+}
+
+.price form input {
+    min-width: 70px;
+    font-size: 12px;
+    padding: 10px;
+    margin-top: 30px;
+    background-color: rgb(18, 179, 104);
+    border: 1px solid rgb(148, 148, 148);
+}
+
+.price form input:hover {
+    background-color: #333;
+}
+
+.size {
+    max-width: 288px;
+    border-bottom: 1px solid rgb(211, 211, 211);
+    padding-bottom: 30px;
+}
+
+.size p:nth-child(1) {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 40px;
+    padding: 0px;
+}
+
+.size ul {
+    list-style: none;
+    padding: 0px;
+}
+
+.size li {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font-size: 13px;
+    border: 1px solid rgb(148, 148, 148);
+    margin: 5px;
+    padding-top: 8px;
+    display: inline-block;
+}
+
+.size li:hover {
+    background-color: #333;
+    border: 1px solid rgb(18, 179, 104);
+    cursor: pointer;
+}
+
+.color {
+    max-width: 288px;
+    border-bottom: 1px solid rgb(211, 211, 211);
+    padding-bottom: 30px;
+}
+
+.color p:nth-child(1) {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 40px;
+    padding: 0px;
+}
+
+.color ul {
+    list-style: none;
+    padding: 0px;
+}
+
+.color li {
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    padding-top: 8px;
+    display: inline-block;
+}
+
+.brands {
+    max-width: 288px;
+    border-bottom: 1px solid rgb(211, 211, 211);
+    padding-bottom: 30px;
+}
+
+.brands p:nth-child(1) {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 40px;
+    padding: 0px;
+}
+
+.brands ul {
+    list-style: none;
+    padding: 0px;
+}
+
+.brands li {
+    font-size: 13px;
+    color: rgb(148, 148, 148);
+    margin-bottom: 10px;
+}
+
+.brands li:hover {
+    color: rgb(18, 179, 104);
+    cursor: pointer;
+}
+
+.gender {
+    max-width: 288px;
+    border-bottom: 1px solid rgb(211, 211, 211);
+    padding-bottom: 30px;
+}
+
+.gender p:nth-child(1) {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 40px;
+    padding: 0px;
+}
+
+.gender ul {
+    list-style: none;
+    padding: 0px;
+}
+
+.gender li {
+    font-size: 13px;
+    color: rgb(148, 148, 148);
+    margin-bottom: 10px;
+}
+
+.gender li:hover {
+    color: rgb(18, 179, 104);
+    cursor: pointer;
+}
+
+.compare-products {
+    max-width: 288px;
+    border-bottom: 1px solid rgb(211, 211, 211);
+    padding-bottom: 30px;
+}
+
+.compare-products-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+.compare-products img {
+    width: 80px;
+    height: 90px;
+    margin-top: 20px;
+    padding: 0px;
+}
+
+.description-product {
+    font-size: 13px;
+    color: rgb(148, 148, 148);
+    margin: 35px 0px 0px -30px;
+}
+
+.compare-products form input {
+    min-width: 90px;
+    font-size: 11px;
+    background-color: rgb(18, 179, 104);
+    border: 1px solid rgb(148, 148, 148);
+    padding: 8px;
+    margin-top: 20px;
+}
+
+.compare-products form input:hover {
+    background-color: #333;
+}
+
+.compare-products u {
+    font-size: 12px;
+    margin-top: 26px;
+}
+
+.community-poll {
+    max-width: 288px;
+    border-bottom: 1px solid rgb(211, 211, 211);
+    padding-bottom: 40px;
+}
+
+.community-poll p:nth-child(1) {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+.community-poll p:nth-child(3) {
+    font-size: 14px;
+}
+
+.community-poll form label {
+    font-size: 13px;
+}
+
+.community-poll form input[type="submit"] {
+    min-width: 65px;
+    font-size: 11px;
+    padding: 10px;
+    background-color: rgb(18, 179, 104);
+    border: 1px solid rgb(148, 148, 148);
+    margin-top: 20px;
+}
+
+.community-poll form input[type="submit"]:hover {
+    background-color: #333;
+}
+
+.tags {
+    max-width: 288px;
+    border-bottom: 1px solid rgb(211, 211, 211);
+    padding-bottom: 30px;
+}
+
+.tags p:nth-child(1) {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+.tags ul {
+    list-style: none;
+    padding: 0px;
+    margin-top: 30px;
+}
+
+.tags li {
+    font-size: 13px;
+    text-align: center;
+    padding: 10px 20px 10px 20px;
+    margin-bottom: 5px;
+    border: 1px solid rgb(148, 148, 148);
+    display: inline-block;
+}
+
+.tags li:hover {
+    background-color: #333;
+    cursor: pointer;
+}
+
+.featured-products {
+    position: relative;
+    max-width: 288px;
+    border-bottom: 1px solid rgb(211, 211, 211);
+    padding-bottom: 30px;
+}
+
+.featured-products p:nth-child(1) {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+.featured-products img {
+    min-width: 80px;
+    min-height: 90px;
+    margin-top: 20px;
+}
+
+.featured-products p:nth-child(2) {
+    font-size: 13px;
+    margin-top: 15px;
+    padding-left: 0px;
+    color: rgb(148, 148, 148);
+}
+
+.featured-products p:nth-child(3) {
+    position: absolute;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(18, 179, 104);
+    top: 120px;
+    right: 80px;
+}
+
+.featured-products i {
+    font-size: 13px;
+}
+
+.featured-products-arrow {
+    max-width: 288px;
+    margin: 0px;
+}
+
+.featured-products-arrow i {
+    width: 40px;
+    height: 40px;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 6px;
+    margin: 20px 5px 0px 0px;
+    border: 1px solid rgb(148, 148, 148);
+}
+
+.featured-products-arrow i:hover {
+    color: #333;
+    border: 1px solid #333;
+    cursor: pointer;
+}
+
+.custom-block {
+    position: relative;
+    max-width: 288px;
+}
+
+.custom-block p:nth-child(1) {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 40px 0px 20px 0px;
+}
+
+.custom-block i {
+    position: absolute;
+    color: rgb(18, 179, 104);
+}
+
+.custom-block span {
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 30px;
+}
+
+.custom-block p:nth-child(3) {
+    font-size: 13px;
+    color: rgb(148, 148, 148);
+    text-align: justify;
+    margin-top: 10px;
+}
